@@ -1,0 +1,36 @@
+.main-container {
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	background-image: url(img/logo.svg);
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+}
+
+.menu-container {
+	margin: 0 auto;
+	width: 650px;
+	height: 100px;
+}
+
+.menu-item {
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	margin: 5px;
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #626366;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 100;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #626366;
+    float: left;
+}
+
+.menu-item:hover {
+	background-color: 626366;
+    color: #ffffff;
+}
